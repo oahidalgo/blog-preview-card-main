@@ -1,0 +1,78 @@
+* {
+  font-family: 'Figtree';
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+}
+
+.card {
+  border: 1px solid;
+  width: 325px;
+  border-radius: 15px;
+  background-color: hsl(0, 0%, 100%);
+  margin: 200px auto;
+  padding: 20px;
+  box-shadow: 8px 8px 0 hsl(0, 0%, 7%);
+}
+
+.blog-img {
+  width: 100%;
+  border-radius: inherit;
+}
+
+.learning {
+  background-color: hsl(47, 88%, 63%);
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.published {
+  display: inline-block;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+.card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.card-title:hover {
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: -0.5px;
+}
+
+.profile-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.footer {
+  position: relative;
+}
+
+.footer-text {
+  position: absolute;
+  bottom: 10px;
+  font-weight: 800;
+}
